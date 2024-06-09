@@ -1,2 +1,9 @@
 port:
   10010
+
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-test
+
+foo: xyzabc
